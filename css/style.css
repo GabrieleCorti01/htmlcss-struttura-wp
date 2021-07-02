@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+
 .float-left{
     float: left;
 }
@@ -14,9 +19,6 @@
     clear: both;
 }
 
-body{
-    margin: 20px 150px;
-}
 
 #container-header{
     height: 130px;
@@ -34,23 +36,26 @@ body{
     margin-top: 20px;
 }
 
+.section-1,
+.section-2,
+.section-3{
+    background-color: lightsalmon;
+}
+
 .section-1{
    height: 100px;
-   background-color: lightsalmon; 
 }
 
 .section-2{
     height: calc(600px - 100px - 20px);
-    background-color: lightsalmon;
     margin-top: 20px;
     width: 15%;
 }
 
 .section-3{
     height: calc(600px - 100px - 20px);
-    background-color: lightsalmon;
     width: 67%; 
-    margin: 20px 20px;
+    margin: 20px 24px;
 }
 
 #container-footer{
